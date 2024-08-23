@@ -1,0 +1,159 @@
+.subscribe-main-part {
+    width: 90%;
+    margin: auto;
+
+    justify-content: space-around;
+    padding: 70px 0px;
+    display: flex;
+}
+
+.subscribe-bg {
+    background-color: #d6d7d2;
+}
+
+.subscribe-part1 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-text{
+    font-size: 14px;
+}
+
+.subscribe-part2 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.subscribe-input {
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.subscribe-input input {
+    padding: 13px;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    width: 50%;
+
+}
+
+.subscribe-img {
+    width: 350px;
+    height: 300px;
+}
+
+.SUBSCRIBE_btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+cursor: pointer;
+    margin-left: 10px;
+}
+
+.subscribe-part2 h1 {
+    font-size: 40px;
+    margin: 5px !important;
+}
+
+.subscribe-part2 h2 {
+    font-size: 30px;
+    margin: 5px !important;
+}
+
+@media screen and (max-width: 900px) {
+    .subscribe-main-part {
+        display: block;
+    }
+
+    .subscribe-part1 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .subscribe-part2 {
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        display: flex;
+    justify-content: center;
+    }
+
+    .subscribe-part2 h1 {
+        font-size: 35px;
+        margin: 5px !important;
+        text-align: justify;
+    }
+
+    .subscribe-part2 h2 {
+        font-size: 30px;
+        margin: 5px !important;
+        text-align: start;
+    }
+
+    .subscribe-img {
+        width: 300px;
+        height: auto;
+    }
+    .subscribe-input input 
+    {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .subscribe-input {
+        display: block;
+
+    }
+
+    .SUBSCRIBE_btn {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        width: 100%;
+    }
+
+    .subscribe-main-part {
+        width: 100%;
+    }
+
+    .subscribe-img {
+        width: 250px;
+        height: auto;
+    }
+
+    .subscribe-input input {
+        width: 95%;
+    }
+
+    .subscribe-part2 p {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .subscribe-part2 h1 {
+        font-size: 20px;
+        margin: 5px !important;
+    }
+
+    .subscribe-part2 h2 {
+        font-size: 20px;
+        margin: 5px !important;
+    }
+
+    .subscribe-img {
+        width: 200px;
+        height: auto;
+    }
+}

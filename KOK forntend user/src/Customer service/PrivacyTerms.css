@@ -1,0 +1,61 @@
+.PrivacyTerms {
+  display: flex;
+  justify-content: center;
+}
+
+.PrivacyTerms_text {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.PrivacyTerms_text h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .PrivacyTerms_text h1 {
+    font-size: 20px;
+  }
+  .PrivacyTerms_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .PrivacyTerms_text h1 {
+    font-size: 20px;
+  }
+  .PrivacyTerms_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .PrivacyTerms_text h1 {
+    font-size: 20px;
+  }
+  .PrivacyTerms_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .PrivacyTerms_text h1 {
+    font-size: 20px;
+  }
+  .PrivacyTerms_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+

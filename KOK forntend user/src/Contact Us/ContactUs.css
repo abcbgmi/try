@@ -1,0 +1,639 @@
+/* .Contact_text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.Contact1 {
+  width: 650px;
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.Contact_part1 {
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.Get_text {
+  margin-top: 90px;
+  margin-bottom: 0px;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.Get_hr {
+  border: 3px solid #1f2a3a;
+  width: 200px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  border-radius: 13px;
+  margin-left: 20px;
+}
+
+.Contact_from {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 76px;
+}
+
+.Enter_Name {
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
+.Enter_Name:focus {
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.Enter_Email {
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
+.Enter_Email:focus {
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.Enter_Message {
+  width: 80%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.Enter_Message::placeholder {
+  position: absolute;
+  font-size: 15px;
+}
+
+.Get_button {
+  width: 80px;
+  height: 30px;
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1f2a3a;
+}
+
+.Contact2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 650px;
+  height: auto;
+  border-radius: 13px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.Contact_Part2 {
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.Contact_Subtext {
+  width: 525px;
+}
+
+.map_div {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.Call_div {
+  display: flex;
+  gap: 30px;
+}
+
+.Email_div {
+  display: flex;
+  gap: 30px;
+}
+
+.social_media {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Contact1 {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+
+  .Contact2 {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+  .Contact {
+    gap: 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Contact1 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Contact2 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Contact1 {
+    width: auto;
+  }
+
+  .Contact2 {
+    width: 400px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Contact1 {
+    width: auto;
+  }
+
+  .Contact2 {
+    width: 450px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Contact1 {
+    width: 550px;
+  }
+
+  .Contact2 {
+    width: 550px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .Contact1 {
+    width: 550px;
+  }
+
+  .Contact2 {
+    width: 550px;
+  }
+
+  .Contact_Subtext {
+    width: 95%;
+  }
+} */
+
+.Contact_text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Contact {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+}
+
+.Contact1 {
+  margin: auto;
+  width: 45%;
+  max-height: 1000px;
+  height: 800px;
+  border-radius: 13px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.Contact_part1 {
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.Get_text {
+
+  margin-bottom: 0px;
+  font-size: 50px;
+  margin-left: 20px;
+}
+
+.Get_hr {
+  border: 3px solid #1f2a3a;
+  width: 200px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: start;
+  margin: 0px;
+
+  margin-top: 5px;
+  border-radius: 13px;
+  margin-left: 20px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  height: 16px; /* Ensure consistent height for the error message */
+}
+.Contact_from .ant-input,
+.Contact_from .ant-input-textarea {
+  margin-bottom: 8px;
+}
+.Get_button {
+  margin-top: 16px;
+}
+.Contact_from {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+
+.contact-input {
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
+.Enter_Name {
+
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
+.Enter_Name:focus {
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.Enter_Email {
+
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+}
+
+.Enter_Email:focus {
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.Enter_Message {
+
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  border: 1px solid #000000;
+  padding-left: 10px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.Enter_Message::placeholder {
+  position: absolute;
+  font-size: 15px;
+}
+
+.Get_button {
+  padding: 10px;
+
+  border-radius: 13px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: #1f2a3a;
+}
+
+.Contact2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 45%;
+  max-height: 1000px;
+  height: 800px;
+  margin: auto;
+  border-radius: 13px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.Contact_Part2 {
+  padding: 30px;
+}
+
+.Contact_Subtext {}
+
+.map_div {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.Call_div {
+  display: flex;
+  gap: 30px;
+}
+
+.Email_div {
+  display: flex;
+  gap: 30px;
+}
+
+.social_media {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  justify-content: end;
+  margin-right: 30px;
+}
+
+.form-lable {
+  padding-bottom: 3px;
+}
+.Contact_from .ant-input{
+  margin-bottom: 10px !important;
+}
+/* @media screen and (max-width: 480px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact2 {
+    width: auto;
+    margin-left: 40px;
+    margin-right: 30px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+  .Contact {
+    gap: 0px;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .Contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .Contact2 {
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Contact2 {
+    width: 400px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Contact2 {
+    width: 450px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Contact2 {
+    width: 550px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .Contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .Contact1 {
+    width: 550px;
+  }
+  .Contact2 {
+    width: 550px;
+  }
+  .Contact_Subtext {
+    width: 95%;
+  }
+} */
+@media screen and (max-width: 1100px) {
+  .Contact {
+    display: block;
+  }
+
+  .Contact1 {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .Contact2 {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+  }
+
+  .Email_div {
+    gap: 10px;
+  }
+
+  .Get_text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Contact {
+    width: 100%;
+  }
+
+  .map_div {
+    margin-top: 0px;
+  }
+
+  .map-main-div {
+    line-height: normal;
+  }
+
+  .Contact2 {
+    height: 800px;
+  }
+
+  .Contact1 {
+    height: 800px;
+  }
+
+  .Get_text {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Contact2 {
+    height: 900px;
+  }
+
+  .Contact1 {
+    height: 850px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .Contact2 {
+    height: 950px;
+  }
+
+  .Get_text {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,417 @@
+.form1 {
+  height: 280px;
+  width: 100%;
+  background-color: #d6d7d2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.bag_Product1 {
+  height: 350px;
+}
+.product-image {
+ 
+  overflow: hidden;
+}
+.product-header img{
+  height:100%;
+  width: 100%;
+  object-fit: cover;
+}
+.product-header {
+  width: 247.35px;
+  height: 200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  cursor: pointer;
+  background-color: #fbf0ef;
+}
+.product {
+  border: 1px solid #dddddd;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-top: 20px !important;
+  padding: 10px;
+  width: 250px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+
+}
+.part2_text1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+.part2_text2 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-left: 20px;
+}
+
+.part2_text3 {
+  font-size: 13px;
+  margin-left: 15px;
+}
+
+.email {
+  margin-left: 20px;
+  width: 320px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.email ::placeholder {
+  margin-left: 20px;
+  position: absolute;
+}
+
+.form1_part2 div {
+  display: flex;
+  gap: 10px;
+}
+
+.form1_part2 div button {
+  cursor: pointer;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  background-color: #24170e;
+  color: #fff;
+  margin-left: 10px;
+  height: 30px;
+}
+
+.TopPicks_Title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.TopPicks_Text {
+  font-size: 27px;
+}
+
+.User_TopPicks_product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.TopPicks_product {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  gap: 125px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.Producdt_Hedar {
+  width: 250px;
+  height: 318px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background-color: #fff;
+  border: 1px solid black;
+}
+
+.Producdt_Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Best_seller-bag:hover {
+  transform: scale(10px);
+}
+
+/* media query css 320px */
+
+@media screen and (max-width: 320px) {
+  .form1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .bag_Product1 {
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .email_id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .email {
+    width: 90%;
+    margin-left: 3%;
+  }
+
+  .part2_text1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .part2_text2 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .part2_text3 {
+    font-size: 13px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .TopPicks_Title h1 {
+    font-size: 16px;
+  }
+
+  .User_TopPicks_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TopPicks_product {
+    gap: 5px;
+  }
+
+  .SUBSCRIBE_TopPicks {
+    height: 40px;
+    width: 91%;
+  }
+}
+
+/* media query css 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+  .form1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    font-size: 20px;
+    gap: 10px;
+  }
+
+  .bag_Product1 {
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .email_id {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .email {
+    width: 90%;
+    margin-left: 3%;
+    height: 30px;
+  }
+
+  .email::placeholder {
+    margin-left: 5px;
+    position: absolute;
+  }
+
+  .part2_text1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .part2_text2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .part2_text3 {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .TopPicks_Title h1 {
+    font-size: 16px;
+  }
+
+  .User_TopPicks_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TopPicks_product {
+    gap: 5px;
+  }
+
+  .SUBSCRIBE_TopPicks {
+    height: 30px;
+    width: 91%;
+  }
+}
+
+/* media query css 768px */
+@media screen and (max-width: 769px) {
+  .form1 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .form1 {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .bag_Product1 {
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .email_id {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .email {
+    width: 90%;
+    margin-left: 3%;
+    height: 30px;
+  }
+
+  .email::placeholder {
+    margin-left: 5px;
+    position: absolute;
+  }
+
+  .part2_text1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 10px;
+  }
+
+  .part2_text2 {
+    font-weight: 600;
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .part2_text3 {
+    font-size: 16px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+
+  .TopPicks_Title h1 {
+    font-size: 16px;
+  }
+
+  .User_TopPicks_product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TopPicks_product {
+    gap: 5px;
+  }
+
+  .SUBSCRIBE_TopPicks {
+    height: 30px;
+    width: 30%;
+  }
+}
+
+.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: 15%;
+}
+
+
+
+.product:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  border-radius: 13px;
+}
+
+.product-footer .product-name {
+  margin: 5px;
+}
+
+.product-footer .product-dec {
+  margin: 5px;
+}
+
+.product-footer .product_price {
+  margin: 5px;
+}
+
+.product_price {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 30px;
+  height: 20px;
+}
+
+.productNull {
+  text-align: center;
+}
+
+
+
+@media screen and (max-width: 769px) {
+  .seller-bag {
+    flex-wrap: wrap;
+  }
+}

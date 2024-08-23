@@ -1,0 +1,101 @@
+.input-field {
+margin-top: 5px !important;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit-button {
+
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color:#b79a7c;
+}
+.form-lable{
+  padding: 10px 0px 5px 0px;
+  font-weight: 700;
+}
+.main-profile{
+padding: 50px 0px;
+
+  margin-bottom: 50px;
+  width: 50%;
+  margin: auto;
+}
+.profile-section{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.profile-form {
+  margin: auto;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  
+  background-color: white;
+border-radius: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.inputs-2{
+  display: block;
+}
+.input-group{
+  text-align: justify;
+  width: 100%;
+}
+.input-field {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color:#b79a7c !important;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.inputs{
+  display: flex;
+  gap: 20px;
+}
+.Show_img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .inputs{
+    display: block;
+  }
+  .main-profile{
+    width: 80%;
+  }
+}

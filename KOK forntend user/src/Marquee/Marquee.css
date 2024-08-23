@@ -1,0 +1,15 @@
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: grab;
+  user-select: none;
+}
+
+.marquee:active {
+  cursor: grabbing;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+}

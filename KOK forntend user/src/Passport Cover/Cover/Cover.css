@@ -1,0 +1,15 @@
+.Passport {}
+
+.Passport_Cover {
+    background-image: url("../images/Back\ Ground\ img.jpg");
+    height: 542px;
+    margin: 0;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

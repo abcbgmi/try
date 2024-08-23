@@ -1,0 +1,237 @@
+
+.User_registration {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 40px;
+  justify-content: center;
+
+  /* box-shadow: -7px -2px 11px -1px rgba(0, 0, 0, 0.45); */
+}
+.register-section {
+  overflow-x: hidden !important;
+}
+.main-form-box{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+}
+.registration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* border: 1px solid black; */
+
+  border-radius: 13px;
+}
+.registration_form {
+  padding: 20px;
+
+}
+.input-group {
+  display: grid;
+}
+.registration-form-container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.form-title {
+  font-size: 35px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.form-SubTitle {
+  margin-top: 10px;
+  text-align: center;
+}
+.register-img {
+  width: 40%;
+
+}
+.Name {
+  display: flex;
+  gap: 30px;
+}
+
+.Last_Name_text {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.Last_Name_input {
+  width: 250px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #9c9c9c;
+}
+
+.Email_Address {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.Password {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.showPassword {
+  margin-top: 10px;
+}
+
+.Button_Submit {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submit_buttion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #1f2a3a;
+
+  height: 29px;
+  color: #fff;
+  border: none;
+  width: 100% !important;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.img1-register{
+  height: auto;
+margin: 20px;
+  border-radius: 13px;
+  height: 550px;
+  border-radius: 10px;
+}
+.register-img img{
+  border-radius: 10px !important;
+}
+.submit_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #321f11;
+  border-radius: 13px;
+  color: #fff;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.submit_button:hover {
+  background-color: #29190f;
+  color: #fff;
+}
+
+.form-SubTitle {
+  margin-top: 20px;
+}
+@media screen and (max-width: 1060px) {
+  .User_registration {
+    display: block;
+  }
+  .register-img img {
+    width: 100% !important;
+  }
+  .register-img {
+    width: 100%;
+  }
+  .Name {
+    display: block;
+  }
+  .Email_Address {
+    display: block;
+  }
+  .Password {
+    display: block;
+  }
+  .input-group input {
+    width: 100%;
+  }
+  .register-img {
+width: 95%;
+  }
+  .main-form-box{
+display: block;
+  }
+}
+/* @media screen and (max-width: 420px) {
+  .registration-form-container {
+    width: 360px;
+  }
+  .registration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    width: auto;
+    box-shadow: -7px -2px 11px -1px rgba(0, 0, 0, 0.45);
+    border-radius: 13px;
+
+    width: 360px;
+  }
+
+  .Last_Name_input {
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #9c9c9c;
+  }
+
+  .Name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Email_Address {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .Password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+
+  .First_Name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .img1 {
+    height: auto;
+    width: 300px;
+  }
+} */

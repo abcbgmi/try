@@ -1,0 +1,108 @@
+.Personalised_Text {
+  margin-bottom: 60px;
+}
+
+.Personalised_Title {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  color: #6a6a6a;
+}
+
+.Personalised_SubText {
+  margin-top: 30px;
+}
+
+.Personalised_SubTitle {
+  color: #6a6a6a;
+}
+
+@media screen and (max-width: 320px) {
+  .Personalised_Title {
+    font-size: 22px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Personalised_Title {
+    font-size: 25px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .Personalised_Title {
+    font-size: 25px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .Personalised_Title {
+    font-size: 25px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .Personalised_Title {
+    font-size: 28px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .Personalised_Title {
+    font-size: 30px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+  .Personalised_Title {
+    font-size: 33px;
+  }
+
+  .Personalised_SubTitle {
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+  }
+}

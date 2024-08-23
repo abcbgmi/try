@@ -1,0 +1,336 @@
+.CustomerReviews {
+  text-align: center;
+  margin: 0px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Review_box {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Review_card {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: #fbf0ef;
+  flex: 1;
+  text-align: center;
+}
+
+.Review_card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.User {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.User_text1 {
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: justify;
+}
+
+.User_text2 {
+  font-size: 16px;
+  font-weight: 900;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.Review_card3 {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.nav-button {
+  background-color: #223a51;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.nav-button:hover {
+  background-color: #104c84;
+}
+
+.Banner_2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 35px;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+
+.Banner2_text1 {
+  margin-left: 100px;
+  font-size: 45px;
+}
+
+.Banner2_text2 {
+  margin-left: 100px;
+  /* margin-right: 150px; */
+  color: #878787;
+  font-size: 16px;
+}
+
+.Banner2_Button {
+  margin-left: 100px;
+  width: 150px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #24170e;
+  color: #fff;
+  padding: 15px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+}
+
+.Banner2_Button:hover {
+  transform: scale(1.1);
+  background-color: #29190f;
+  color: #fff;
+}
+
+/* media query css 320 */
+
+@media screen and (max-width: 320px) {
+  .User_text1 {
+    text-align: start;
+  }
+
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_text2 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .Banner2_Button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Banner2_img {
+    height: 250px;
+    width: 250px;
+    border-radius: 13px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .Banner_2 {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .User_text1 {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .Banner2_text2 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  .Banner2_Button {
+    margin-left: 15px;
+  }
+
+  .Banner2_img {
+    height: 300px;
+    width: 300px;
+    border-radius: 13px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .User_text1 {
+    font-size: 13px;
+    text-align: justify;
+  }
+
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+  }
+
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_text2 {
+    font-size: 13px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_Button {
+    margin: 0;
+  }
+
+  .Banner2_img {
+    height: 300px;
+    width: 300px;
+    border-radius: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_text2 {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 550px;
+    font-size: 15px;
+  }
+
+  .Banner2_Button {
+    margin: 0;
+  }
+
+  .Banner2_img {
+    height: 350px;
+    width: 350px;
+    border-radius: 13px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_text2 {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 550px;
+  }
+
+  .Banner2_Button {
+    margin: 0;
+  }
+
+  .Banner2_img {
+    height: 350px;
+    width: 350px;
+    border-radius: 13px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .Banner_2 {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .Banner2_text1 {
+    margin: 0px;
+    font-size: 27px;
+    margin-bottom: 10px;
+  }
+
+  .Banner2_text2 {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 550px;
+  }
+
+  .Banner2_Button {
+    margin: 0;
+  }
+
+  .Banner2_img {
+    height: 350px;
+    width: 350px;
+    border-radius: 13px;
+  }
+}

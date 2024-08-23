@@ -1,0 +1,397 @@
+.Category_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.Category_Text1 {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+}
+
+.UnderLine {
+  height: 12px;
+  width: 100px;
+  margin: 0;
+}
+
+.Category_box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.Category_box1 {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.Category_box1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/img\ 1.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.Category_boximages-main {
+  width: 200px;
+  height: 200px;
+}
+
+.Category_boximages {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.Category_boximages-p {
+  text-align: center;
+}
+
+.Category_box1_text {
+  display: none;
+  transition: all 0.4s ease;
+}
+
+.Category_box1:hover .Category_box1_text {
+  position: relative;
+  z-index: 2;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(49, 48, 48, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+}
+
+.Category_box2 {
+  position: relative;
+  height: 400px;
+  width: 600px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.Category_box2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./images/image\ 14.svg");
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.5; */
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.Category_box2_text {
+  display: none;
+  transition: all 0.4s ease;
+}
+
+.Category_box2:hover .Category_box2_text {
+  position: relative;
+  z-index: 2;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(49, 48, 48, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0;
+  color: #fff;
+}
+
+.Category_box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Shop_Box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 13px;
+}
+
+.Shop_Box1:hover {
+  box-shadow: 12px 14px 20px -14px rgba(204, 204, 204, 1);
+}
+
+.Free_icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.Shop_text1 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.Shop_text2 {
+  font-size: 15px;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* media query css 320px */
+
+@media screen and (max-width: 320px) {
+  .Category_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+
+  .UnderLine {
+    width: 150px;
+    height: 15px;
+  }
+
+  .Category_Text1 {
+    font-size: 22px;
+  }
+
+  .Category_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Category_box1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Category_box1_text {
+    font-size: 20px;
+  }
+
+  .Category_box2 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Category_box2_text {
+    font-size: 20px;
+  }
+}
+
+/* media query css 420px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Category_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+
+  .UnderLine {
+    width: 150px;
+    height: 15px;
+  }
+
+  .Category_Text1 {
+    font-size: 22px;
+  }
+
+  .Category_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Category_box1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Category_box1_text {
+    font-size: 20px;
+  }
+
+  .Category_box2 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Category_box2_text {
+    font-size: 20px;
+  }
+}
+
+/* media query css 768px */
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .Category_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+
+  .UnderLine {
+    width: 150px;
+    height: 15px;
+  }
+
+  .Category_Text1 {
+    font-size: 22px;
+  }
+
+  .Category_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Category_box1 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Category_box1_text {
+    font-size: 20px;
+  }
+
+  .Category_box2 {
+    width: 300px;
+    height: 300px;
+  }
+
+  .Category_box2_text {
+    font-size: 20px;
+  }
+}
+
+/* media query css 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Category_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+
+  .UnderLine {
+    width: 150px;
+    height: 15px;
+  }
+
+  .Category_Text1 {
+    font-size: 22px;
+  }
+
+  .Category_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Category_box1,
+  .Category_box2 {
+    width: 400px;
+    height: 400px;
+  }
+
+  .Category_box1_text {
+    font-size: 20px;
+  }
+
+  .Category_box2_text {
+    font-size: 20px;
+  }
+}
+
+/* media query css 1024px */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .Category_Title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+  }
+
+  .UnderLine {
+    width: 150px;
+    height: 15px;
+  }
+
+  .Category_Text1 {
+    font-size: 22px;
+  }
+
+  .Category_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .Category_box1,
+  .Category_box2 {
+    width: 500px;
+    height: 500px;
+  }
+
+  .Category_box1_text {
+    font-size: 20px;
+  }
+
+  .Category_box2_text {
+    font-size: 20px;
+  }
+}

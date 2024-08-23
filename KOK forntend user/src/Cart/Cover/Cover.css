@@ -1,0 +1,14 @@
+.Cart_Cover {
+    background-image: url("../imgas/Product2.png");
+    background-size: cover;
+    height: 542px;
+    margin: 0;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #fff;
+    background-repeat: no-repeat
+}
+

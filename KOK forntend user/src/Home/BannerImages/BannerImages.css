@@ -1,0 +1,505 @@
+
+.Banner {
+  display: flex;
+  background-color: #b79a7c;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Banner_text {
+  margin-left: 150px;
+  color: #24170e;
+}
+
+.Banner_text1 {
+  font-size: 65px;
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.Banner_text2 {
+  font-size: 41px;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.Banner_button1 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #321f11;
+  color: #fff;
+  border: none;
+  outline: none;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
+  width: 100px;
+  height: 30px;
+}
+
+.Banner_button1:hover {
+  transform: scale(1.1);
+  background-color: #29190f;
+  color: white;
+}
+
+.Banner1 {
+  /* margin-top: -41px; */
+  margin-top: 0px;
+}
+
+.Banner2 {
+  height: 700px;
+  background-color: #fbf0ef;
+  z-index: -1;
+}
+
+.Banner2_img1 {
+  /* position: absolute; */
+  margin-top: -90px;
+  margin-left: 150px;
+  z-index: 1;
+  width: 50%;
+  height: auto;
+  position: relative;
+}
+
+.Banner2_text {
+  width: 650px;
+  margin-top: 20px;
+}
+
+.hh {
+  position: relative;
+  margin-top: 30px;
+  /* Ensure the parent container is positioned */
+}
+
+.hh .Blank_box {
+  height: 506px;
+  width: 399px;
+  border: 3px solid #9a98b1;
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: -415px;
+  position: relative;
+  z-index: 1;
+}
+
+.hh .Banner2_img2 {
+  margin-left: 1200px;
+  margin-top: -470px;
+  position: relative;
+  /* Position relative to .hh */
+  z-index: 2;
+}
+
+/* media query css 320px */
+@media screen and (max-width: 320px) {
+  .Banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .Banner_text1,
+  .Banner_text2 {
+    font-size: 24px;
+  }
+
+  .Banner1 {
+    height: 252px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 13px;
+  }
+
+  .Banner2_text {
+    margin-left: 25px;
+    width: 280px;
+    margin-top: 20px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 250px;
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    margin-left: 0px;
+    height: 250px;
+    margin-left: 35px;
+    width: 250px;
+  }
+}
+
+/* media query css 420px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Banner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .Banner_text1,
+  .Banner_text2 {
+    font-size: 24px;
+  }
+
+  .Banner1 {
+    height: 252px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 15px;
+    border-radius: 13px;
+  }
+
+  .Banner2_text {
+    margin-left: 25px;
+    width: 280px;
+    margin-top: 20px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 250px;
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    margin-left: 0px;
+    height: 250px;
+    margin-left: 35px;
+    width: 250px;
+  }
+}
+
+/* media query css 768px */
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .Banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .Banner_text1,
+  .Banner_text2 {
+    font-size: 24px;
+  }
+
+  .Banner1 {
+    height: 252px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 200px;
+    margin-left: 15px;
+    border-radius: 13px;
+    margin-top: -25px;
+  }
+
+  .Banner2_text {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 250px;
+    margin-left: 0px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    height: 250px;
+    margin-left: 50px;
+    /* margin-top: 20px; */
+    width: 250px;
+  }
+}
+
+/* media query css 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .Banner_text1,
+  .Banner_text2 {
+    font-size: 24px;
+  }
+
+  .Banner1 {
+    height: 300px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 250px;
+    margin-left: 15px;
+    border-radius: 13px;
+    margin-top: -50px;
+  }
+
+  .Banner2_text {
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    height: 300px;
+    margin-left: 50px;
+    width: 300px;
+  }
+}
+
+/* media query css 1200px */
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .Banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .Banner_text1,
+  .Banner_text2 {
+    font-size: 35px;
+  }
+
+  .Banner1 {
+    height: 350px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 300px;
+    margin-left: 15px;
+    border-radius: 13px;
+    margin-top: -75px;
+    width: 90%
+  }
+
+  .Banner2_text {
+    width: 450px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 350px;
+    width: 350px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    height: 350px;
+    width: 350px;
+    margin-left: 50px;
+  }
+}
+
+/* media query css 1200px more */
+
+@media (max-width: 1200px)  {
+  .Banner {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+  }
+
+  .Banner_text {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .Banner_text1 {
+    font-size: 65px;
+  }
+
+  .Banner_text2 {
+    font-size: 41px;
+  }
+
+  .Banner1 {
+    height: 500px;
+    margin-top: 25px;
+  }
+
+  .Banner2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+  }
+
+  .Banner2_img1 {
+    height: 400px;
+    margin-left: 15px;
+    border-radius: 13px;
+    margin-top: -175px;
+    width: 80%;
+  }
+
+  .Banner2_text {
+    width: 650px;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+
+  .hh {
+    margin-left: 0px;
+  }
+
+  .hh .Blank_box {
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+
+  .hh .Banner2_img2 {
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+  }
+}

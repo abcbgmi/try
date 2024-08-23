@@ -1,0 +1,72 @@
+.All_product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seller_product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: auto;
+  border: none;
+  gap: 30px;
+}
+
+.seller-bag {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 0px;
+  border: none;
+}
+
+.producdt_Hedar {
+  width: 247.35px;
+  height: 269.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.product-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 13px;
+}
+
+.star_smaill{
+  font-size: 25PX;
+}
+
+@media screen and (max-width: 320px) {
+  .seller_product {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .seller_product {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+  .seller_product {
+    display: flex;
+    justify-content: center;
+  }
+}

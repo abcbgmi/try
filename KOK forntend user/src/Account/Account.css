@@ -1,0 +1,145 @@
+.All_Two_part {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Part1 {
+    height: 550px;
+    width: 794px;
+    background-color: #F7FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.Account_Part1 {
+    background-color: #F7FAFC;
+    height: 500px;
+    width: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Account_hedar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.Account_text {
+    color: #3182CE;
+}
+
+.Account_text1 {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Email_text {
+    color: #718096;
+    margin-left: 50px;
+}
+
+.Email_InputBox {
+    margin-left: 50px;
+    width: 450px;
+    /* height: 35px; */
+    font-size: 16px;
+    border: none;
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.Password_text {
+    color: #718096;
+    margin-left: 50px;
+}
+
+.Email_Password {
+    margin-left: 50px;
+    width: 450px;
+    /* height: 35px; */
+    font-size: 16px;
+    border: none;
+    background-color: #E2E8F0;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+
+.Register_Form {
+    cursor: pointer;
+}
+
+.Login_Buttion {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.Login_ButtionPart {
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
+    background-color: #3182CE;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: background-color 0.6s ease;
+}
+
+.Login_ButtionPart:hover {
+    background-color: #2771b6;
+
+}
+
+.Shipping_bution {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.Login_ButtionPart1 {
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    background-color: #3182CE;
+    border-radius: 5px;
+    color: #fff;
+    outline: none;
+    border: none;
+    transition: background-color 0.6s ease;
+
+}
+
+.Login_ButtionPart1:hover {
+    background-color: #2771b6;
+
+}
+
+
+
+
+@media screen and (max-width:420px) {
+    .All_Two_part {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Account_Part1{
+        width: auto;
+    }
+}

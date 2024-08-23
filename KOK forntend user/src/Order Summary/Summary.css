@@ -1,0 +1,93 @@
+.Part2 {
+  height: 550px;
+  width: 494px;
+  background-color: #f7fafc;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+
+.Porduct1_header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Order_Summary {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Porduct1 {
+  width: 400px;
+}
+
+.Price_Section {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+
+.Price_Section2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.increment {
+  height: 20px;
+  width: 20px;
+}
+
+.GiftCard {
+  margin-left: 50px;
+  color: #718096;
+}
+
+.Price {
+  display: flex;
+  gap: 300px;
+}
+
+.Code {
+  display: flex;
+  gap: 60px;
+  justify-content: start;
+  margin-left: 50px;
+}
+
+.Code_input {
+  width: 60%;
+  height: 20px;
+  border: none;
+  background-color: #e2e8f0;
+  padding: 10px;
+  border-radius: 13px;
+}
+
+.Code_input:focus {
+  border: none;
+  outline: none;
+}
+
+.Applay_Button {
+  border: 1px solid #3182ce;
+  width: 70px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #3182ce;
+  background-color: #fff;
+}
+
+.Price {
+  margin-left: 50px;
+}
+
+.Free_text {
+  color: #38b2ac;
+}

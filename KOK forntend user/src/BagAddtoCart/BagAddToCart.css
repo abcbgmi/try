@@ -1,0 +1,345 @@
+.profile-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.review-box2 {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.review-padding {
+  padding: 20px;
+}
+.lable-1{
+  width: 30%;
+}
+.input-1{
+  width: 40%;
+}
+.user-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-name {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.img-box {
+  display: block !important;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: fit-content;
+  min-height: 300px;
+  display: flex;
+  margin: 20px 0px;
+  padding: 10px;
+  background-color: rgb(246, 246, 246);
+
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.read-more-text {
+  color: green;
+}
+
+.input-style {
+width: 200px;
+  padding: 7px;
+
+}
+
+.personalize_Cover_Button {
+  margin-top: 10px;
+}
+
+.Footer_img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+  width: fit-content;
+}
+
+.responsive-review {
+  display: block;
+  justify-content: start;
+  align-items: center;
+  margin-top: 30px;
+  width: 80%;
+margin-top: 23px !important;
+  margin: auto;
+}
+.footer-img-section{
+  overflow-x: scroll;
+}
+.rating-text {
+  margin: 0px !important;
+}
+
+.add-review-button {
+  background-color: #24426d !important;
+  padding: 10px 30px !important;
+  color: white !important;
+  border-radius: 10px !important;
+  margin-top: 20px;
+}
+
+.review-input {
+  width: 90%;
+  height: 100px;
+  font-size: 20px;
+}
+
+.add-button {
+  background-color: #0d6efd;
+  border: none;
+  padding: 10px 50px;
+  color: white;
+  outline: none;
+}
+
+.main-review {
+  width: 90%;
+  margin: auto;
+}
+.AddToCard {
+  display: flex;
+  width: 100%;
+  overflow-x: hidden;
+}
+.images_seacation {
+  width: 60%;
+  background-color: #f6f6f6;
+  padding: 30px 0px;
+}
+.Images_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 30px;
+
+ 
+}
+.Images_div img {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+}
+.Video_show {
+  margin: 20px 0px;
+  border-radius: 13px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  object-fit: cover;
+}
+.Product3 {
+  width: 100%;
+  height: 100%;
+  border-radius: 13px;
+  object-fit: contain;
+  background-color:transparent;
+}
+.cart_product {
+  height: 80px;
+  width: 80px;
+}
+.personalize_Text {
+  display: flex;
+  gap: 14px;
+}
+.Personalize_Text {
+  display: flex;
+  gap: 30px;
+}
+strike {
+  text-decoration: #565959 line-through;
+  color: #565959;
+}
+.personalize_SubText {
+  padding: 3px 9px;
+  background-color: #24426d;
+  height: 20px;
+  color: #fff;
+  font-weight: 400;
+  border-radius: 5px;
+  margin: 0 !important;
+}
+.Single_double {
+  display: flex;
+  gap: 30px;
+}
+.personalize_Cover {
+  display: flex;
+  gap: 220px;
+  margin-left: 262px;
+}
+.personalize_Cover_Box {
+  border: 1px solid #c1c1c1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  color: #24426d;
+  font-weight: 700;
+}
+.personalize_Cover_Row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.personalize_Cover_Row1_name {
+  width: 250px;
+  height: 20px;
+}
+.personalize_Cover_Row1_Color {
+  width: 257px;
+  height: 25px;
+  margin-left: 5px;
+}
+.personalize_Cover_Row1_Charm {
+  width: 257px;
+  height: 25px;
+}
+.personalize_Cover_Button {
+  width: 100%;
+
+  background-color: #24170e;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 13px;
+  cursor: pointer;
+  border: none;
+  margin: 16px 0px;
+}
+.Footer_img {
+margin: 20px 40px;
+  margin: auto;
+  margin-top: 50px;
+}
+.cart_product {
+  background-color: #ffffff;
+  border-radius: 13px;
+  border: 1px solid;
+  cursor: pointer;
+}
+.button-4 {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+.button-4:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+.button-4:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+.button-4:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+.button-4:focus {
+  outline: 1px transparent;
+}
+.button-4:before {
+  display: none;
+}
+.button-4:-webkit-details-marker {
+  display: none;
+}
+.All_text {
+  width: 40%;
+  margin: 30px;}
+  @media screen and (max-width: 500px) {
+    
+    .personalize_Text {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 1100px) {
+    .AddToCard {
+      display: block;
+      width: 100%;
+    }
+    .images_seacation {
+      width: 100%;
+    }
+    .All_text {
+      width: 80%;
+      margin: auto;
+    }
+    .Images_div {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+    }
+  }
+  
+@media screen and (max-width: 700px) {
+  .img-box {
+    width: 90%;
+    margin: auto;
+    margin: 20px 0px;
+  }
+
+  .responsive-review {
+    display: block;
+  }
+
+  .add-button {
+    background-color: #0d6efd;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+  }
+
+  .Footer_img {
+    margin: auto;
+    margin-top: 20px;
+  }
+}

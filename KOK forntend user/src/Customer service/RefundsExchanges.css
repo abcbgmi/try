@@ -1,0 +1,60 @@
+.RefundsExchanges {
+  display: flex;
+  justify-content: center;
+}
+
+.RefundsExchanges_text {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+
+.RefundsExchanges_text h1 {
+  text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+  .RefundsExchanges_text h1 {
+    font-size: 20px;
+  }
+  .RefundsExchanges_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .RefundsExchanges_text h1 {
+    font-size: 20px;
+  }
+  .RefundsExchanges_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .RefundsExchanges_text h1 {
+    font-size: 20px;
+  }
+  .RefundsExchanges_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .RefundsExchanges_text h1 {
+    font-size: 20px;
+  }
+  .RefundsExchanges_text {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: start;
+  }
+}

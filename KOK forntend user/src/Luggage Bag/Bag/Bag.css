@@ -1,0 +1,18 @@
+.Passport_Bag {
+    background-image: url("../images/Background2.jpg");
+    height: 542px;
+    margin: 0;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Product13 {
+    height: 250px;
+}

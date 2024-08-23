@@ -1,0 +1,75 @@
+.Navbar_cart {
+  display: flex;
+  gap: 70px;
+  color: #24170e;
+  margin-left: 300px;
+}
+
+.Navbar_cart li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.Navbar_cart {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Navbar_cart li {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.Navbar_cart li.active {
+  color: #24426d;
+}
+
+.Navbar_cart li.inactive {
+  color: black;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 320px) {
+  .Navbar_cart {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .Navbar_cart {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .Navbar_cart {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    gap: 0px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .Navbar_cart {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .Navbar_cart {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    gap: 20px;
+  }
+}
